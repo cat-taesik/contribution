@@ -13,7 +13,7 @@ git config에 기여자 이름을 지정.
 기여자 명칭을 무엇으로 해도 괜찮으나, GitHub를 기반으로 기여하는 기여자는 GitHub username을 사용하는 것을 추천.
 
 ```bash
-git config --global user.name "seokho-son"
+git config --global user.name "cat-taesik"
 ```
 ```bash
 git config --global user.name
@@ -26,7 +26,7 @@ git config에 이메일을 지정.
 https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address
 
 ```bash
-git config user.email "email@example.com"
+git config user.email "shsongist1@gmail.com"
 ```
 
 ```bash
