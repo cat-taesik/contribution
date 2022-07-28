@@ -2,10 +2,11 @@
 Any resources for contribution
 
  - https://github.com/kubernetes/website/
-   - Ko issue list: https://github.com/kubernetes/website/issues?q=is%3Aissue+is%3Aopen+label%3Alanguage%2Fko
-   - Ko PR list: https://github.com/kubernetes/website/pulls?q=is%3Apr+is%3Aopen+label%3Alanguage%2Fko
+   - [Ko issue list](https://github.com/kubernetes/website/issues?q=is%3Aissue+is%3Aopen+label%3Alanguage%2Fko)
+   - [Ko PR list](https://github.com/kubernetes/website/pulls?q=is%3Apr+is%3Aopen+label%3Alanguage%2Fko)
  - https://kubernetes.io/ko/docs/contribute/new-content/
  - https://kubernetes.io/ko/docs/contribute/localization_ko/
+ - CLA: https://api.easycla.lfx.linuxfoundation.org/v2/repository-provider/github/sign/18706487/51478266/35428/#/?version=2
 
 ---
 
@@ -44,3 +45,21 @@ git config --global user.email "shsongist1@gmail.com"
 git config --global user.email
 ```
 
+git clone https://github.com/kubernetes/website.git
+cd website/
+ls
+git remote add upstream https://github.com/kubernetes/website.git
+git remote -v
+git fetch upstream
+
+
+```bash
+# pull in the Docsy submodule
+git submodule update --init --recursive --depth 1
+sudo apt install make
+```
+
+```bash
+# You can set $CONTAINER_ENGINE to the name of any Docker-like container tool
+make container-serve
+```
