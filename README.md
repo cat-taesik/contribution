@@ -45,12 +45,48 @@ git config --global user.email "shsongist1@gmail.com"
 git config --global user.email
 ```
 
+### 2. hhh
+
+```bash
 git clone https://github.com/kubernetes/website.git
 cd website/
 ls
+```
+
+```bash
 git remote add upstream https://github.com/kubernetes/website.git
 git remote -v
 git fetch upstream
+git branch
+git checkout upstream/dev-1.24-ko.2 
+git log
+git checkout -b feat-dev-1.24-ko.2
+
+git status
+git add content/ko/docs/reference/glossary/disruption.md
+git status
+git commit -s -m "Translate the glossary term Disruption into Korean"
+git status
+git log
+
+ssh-keygen -t rsa -C "shsongist1@gmail.com"
+cat /home/son/.ssh/id_rsa.pub 
+
+git push origin feat-dev-1.24-ko.2
+
+git status
+git diff
+git add content/ko/docs/reference/glossary/disruption.md
+git commit --amend
+git status
+git log
+
+git push origin feat-dev-1.24-ko.2
+git push origin feat-dev-1.24-ko.2 --force
+```
+
+
+### 3. hhh
 
 
 ```bash
