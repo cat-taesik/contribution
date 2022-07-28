@@ -15,6 +15,8 @@ git config에 기여자 이름을 지정.
 ```bash
 git config --global user.name "cat-taesik"
 ```
+
+확인
 ```bash
 git config --global user.name
 ```
@@ -29,6 +31,8 @@ https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-pers
 git config user.email "shsongist1@gmail.com"
 ```
 
+확인
 ```bash
 git config --global user.email
 ```
+
