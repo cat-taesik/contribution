@@ -1,6 +1,14 @@
 # Contribution guide
 Any resources for contribution
 
+ - https://github.com/kubernetes/website/
+   - Ko issue list: https://github.com/kubernetes/website/issues?q=is%3Aissue+is%3Aopen+label%3Alanguage%2Fko
+   - Ko PR list: https://github.com/kubernetes/website/pulls?q=is%3Apr+is%3Aopen+label%3Alanguage%2Fko
+ - https://kubernetes.io/ko/docs/contribute/new-content/
+ - https://kubernetes.io/ko/docs/contribute/localization_ko/
+
+---
+
 ## Kubernetes/website 기여 가이드
 
 다양한 Git 클라이언트들이 있으므로, 가장 기본적인 Git 커맨드와 편집도구를 활용한 기여 방법을 보여준다.
