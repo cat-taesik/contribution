@@ -28,7 +28,7 @@ git config에 이메일을 지정.
 https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address
 
 ```bash
-git config user.email "shsongist1@gmail.com"
+git config --global user.email "shsongist1@gmail.com"
 ```
 
 확인
