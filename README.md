@@ -45,7 +45,7 @@ git config --global user.email "shsongist1@gmail.com"
 git config --global user.email
 ```
 
-### 2. hhh
+### 2. intoit
 
 ```bash
 git clone https://github.com/kubernetes/website.git
@@ -86,7 +86,7 @@ git push origin feat-dev-1.24-ko.2 --force
 ```
 
 
-### 3. hhh
+### 3. build test
 
 
 ```bash
