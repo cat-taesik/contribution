@@ -61,26 +61,40 @@ git branch
 git checkout upstream/dev-1.24-ko.2 
 git log
 git checkout -b feat-dev-1.24-ko.2
+```
 
+
+```bash
 git status
 git add content/ko/docs/reference/glossary/disruption.md
 git status
 git commit -s -m "Translate the glossary term Disruption into Korean"
 git status
 git log
+```
 
+
+```bash
 ssh-keygen -t rsa -C "shsongist1@gmail.com"
 cat /home/son/.ssh/id_rsa.pub 
+```
 
+
+```bash
 git push origin feat-dev-1.24-ko.2
+```
 
+
+```bash
 git status
 git diff
 git add content/ko/docs/reference/glossary/disruption.md
 git commit --amend
 git status
 git log
+```
 
+```bash
 git push origin feat-dev-1.24-ko.2
 git push origin feat-dev-1.24-ko.2 --force
 ```
